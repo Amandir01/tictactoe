@@ -12,24 +12,32 @@ h1  {
 }
 body {
 background-image: url(../assets/images/tiger.gif);
-height: 690px;
+height: 720px;
+background-size:cover;
 }
 
 .block  {
-  margin: 10px;
   border :1px solid black;
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 110px;
   font-size: 40px;
   text-align: center;
   background-color: white;
   font-family: 'Bungee Inline', cursive;
 }
 button {
-  margin-top: 30px;
+  margin-bottom: 20px;
   width: 200px;
   height: 50px;
   border-radius: 14px;
   font-size: 20px;
   font-family: 'Press Start 2P', cursive;
+}
+#finalmessage {
+  background-color: white;
+  border-style: groove;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 10px;
 }
