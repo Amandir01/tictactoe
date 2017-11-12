@@ -1,5 +1,3 @@
-
-
 /*creando el primer movimiento "X"*/
 window.onload = function() {
   var board = document.querySelector('.board') ;
