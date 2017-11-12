@@ -28,6 +28,10 @@ table td  {
   background-color: white;
   font-family: 'Bungee Inline', cursive;
 }
+table tr td {
+  border: 4px solid #1e1b36;
+  border-style: dashed;
+}
 button {
   margin-bottom: 20px;
   width: 200px;
