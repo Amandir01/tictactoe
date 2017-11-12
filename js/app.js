@@ -14,7 +14,7 @@ function addX(event){
     centinel =!centinel ;
   }
 }
-
+          
 function startagain() {
   window.location.reload();
 }
