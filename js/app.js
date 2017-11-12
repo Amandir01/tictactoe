@@ -1,7 +1,10 @@
+
+
 /*creando el primer movimiento "X"*/
 window.onload = function() {
   var board = document.querySelector('.board') ;
-  board.addEventListener('click', addX);
+  board.addEventListener('click', addX); /*diciendole a board que se agregue un evento que hace que lo primero sea x*/
+  document.getElementById('restart').addEventListener('click', startagain); /*agregandp un evento al ID restart que e sun boton*/
 };
 var centinel = true ;
 function addX(event){
@@ -12,4 +15,8 @@ function addX(event){
     event.target.textContent = '0';
     centinel =!centinel ;
   }
+}
+
+function startagain() {
+  window.location.reload();
 }
